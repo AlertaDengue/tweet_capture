@@ -2,8 +2,6 @@
 
 These notebooks are meant to retrieve tweets related to arboviruses (dengue, zika, chikungunya). The retrieval is done through streaming (in real time) and the retrieved tweets are stored in a MongoDB collection.
 
-
-
 # Main files
 * twitter_retriever.ipynb: it captures data from Twitter by streaming method and saves it into a MongoDB collection.  
 
@@ -11,7 +9,7 @@ These notebooks are meant to retrieve tweets related to arboviruses (dengue, zik
 
 * twitter_geolocation_eda.ipynb: It evaluates the geolocation variables from twitter data, for instance comparing the proportion of each variable from total tweets. 
 
-#  About MondoGB
+#  About MongoDB
 MongoDB is a NoSQL database program which uses JSON-like document (also the data format from twitter API). You might navigate a database by using the browser MongoDB Compass or by using Python library ```pymongo```.
 
 ## Installation
